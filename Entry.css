@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+.banner-img {
+  background-image: url(./EntryImages/Entry\ Station\ Image.jpg);
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+}
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 45%;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: rgb(148, 248, 248, 0.9);
+  border-radius: 20px solid red;
+}
+h1 {
+  text-align: center;
+  color: red;
+  font-size: 5rem;
+}
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+  margin: 0px 2px;
+  padding: 0;
+}
+p {
+  color: rgb(189, 96, 8);
+  font-size: 2rem;
+  margin-top: 5px;
+}
+button {
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  color: rgb(11, 12, 13);
+}
+#btn-primary {
+  background-color: aquamarine;
+}
+#btn-secondary {
+  background-color: red;
+  margin: 10px 10px;
+  padding: 5px 24px;
+}
